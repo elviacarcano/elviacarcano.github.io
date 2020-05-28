@@ -1,26 +1,18 @@
-//* {
+* {
     box-sizing: border-box;
 }
 
 body {
     margin: auto;
-    text-align: center;
-    font-family: Raleway, sans-serif;
+    font-family: Lato, sans-serif;
     
 }
 
 h1 {
-    font-family: 'Julius Sans One', sans-serif;
-    font-weight: lighter;
+    font-family: 'Libre Carlson Display', sans-serif;
     font-size: 2.5rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
-}
-
-h3 {
-    font-weight: lighter;
-    font-size: .9rem;
-    color: white;
 }
 
 ul {
@@ -45,17 +37,13 @@ article {
 }
 
 .images {
-    background-color: black;
-    width: 70%;
+    width: 85%;
     margin: auto;
 }
 
-footer {
-    font-size: .7rem;
-    padding-top: 3rem;
-}
 
-@media (max-width: 425px)  {
+
+//*@media (max-width: 425px)  {
 
     h1 {
         font-size: 3rem;
