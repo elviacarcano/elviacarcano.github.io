@@ -1,0 +1,124 @@
+//* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    
+}
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: .9rem;
+    color: white;
+}
+
+ul {
+    padding-left: 0rem;
+    padding-bottom: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: grey;
+}
+
+li {
+    list-style: none;
+    padding:.5rem;
+    font-size: .8rem;
+}
+
+article {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.images {
+    background-color: black;
+    width: 70%;
+    margin: auto;
+}
+
+footer {
+    font-size: .7rem;
+    padding-top: 3rem;
+}
+
+@media (max-width: 425px)  {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: .9rem;
+    }
+    ul li {
+        font-size: .8rem;
+    }
+
+    .images {
+        width: 100%;
+    }
+}
+
+@media (max-width: 769px) {
+    h1{
+        font-size:3.5rem ;
+    }
+
+    h3 {
+      font-size: 1.1rem;  
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+
+    .images {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    h1{
+        font-size:3.5rem ;
+    }
+
+    h3 {
+      font-size: 1.1rem;  
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px)  {
+    h1{
+        font-size:3.8rem ;
+    }
+
+    h3 {
+      font-size: 1.3rem;  
+    }
+
+    ul li {
+        font-size: 1.2rem;
+    }
+}
+
+
+
