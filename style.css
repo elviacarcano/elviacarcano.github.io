@@ -5,7 +5,13 @@
 body {
     margin: auto;
     font-family: Lato, sans-serif;
+    background-color: #F2E9E3;
     
+}
+
+header {
+    border-bottom: 1px solid;
+    border-color: black;
 }
 
 h1 {
@@ -13,16 +19,23 @@ h1 {
     font-size: 2.5rem;
     padding-top: 2rem;
     padding-bottom: 1rem;
+    padding-left: 4rem;
 }
 
+nav {
+    float: right;
+    padding-right: 3rem;
+
+}
 ul {
     padding-left: 0rem;
     padding-bottom: 1rem;
+    display: flex;
 }
 
 nav a {
     text-decoration: none;
-    color: grey;
+    color:#A36F4D ;
 }
 
 li {
@@ -39,6 +52,7 @@ article {
 .images {
     width: 85%;
     margin: auto;
+    text-align: center;
 }
 
 
