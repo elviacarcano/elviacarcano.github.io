@@ -24,24 +24,23 @@ h1 {
 }
 
 nav {
-    padding-top: 3.5rem;
+    padding-top: 4rem;
     padding-bottom: 3.5rem;
 
 }
 ul {
-    padding-left: 0rem;
     padding-bottom: 1rem;
     display: flex;
 }
 
 nav a {
     text-decoration: none;
-    color:#A36F4D ;
+    color: black;
 }
 
 li {
     list-style: none;
-    padding:.5rem;
+    padding:.7rem;
     font-size: 1.7rem;
 }
 
@@ -58,7 +57,7 @@ article img {
     margin: auto;
     text-align: center;
     border-top: 1px solid;
-    border-color: black;
+    border-color: gray;
     padding-top: 2.5rem;
 }
 
