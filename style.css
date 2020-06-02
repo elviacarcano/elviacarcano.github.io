@@ -9,9 +9,7 @@ body {
     
 }
 
-header {
-    border-bottom: 1px solid;
-}
+
 
 h1 {
     font-family: 'Libre Caslon Display', sans-serif;
@@ -62,7 +60,7 @@ article {
 
 
 
-//*@media (max-width: 425px)  {
+/*@media (max-width: 425px)  {
 
     h1 {
         font-size: 3rem;
