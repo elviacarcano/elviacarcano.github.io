@@ -50,6 +50,10 @@ article {
     padding-bottom: 2rem;
 }
 
+article img {
+    width: 70%;
+}
+
 .images {
     margin: auto;
     text-align: center;
