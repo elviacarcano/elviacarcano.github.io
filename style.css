@@ -55,14 +55,12 @@ article img {
 .images {
     margin: auto;
     text-align: center;
-    border-top: 1px solid;
-    border-color: gray;
     padding-top: 2.5rem;
 }
 
 
 
-/*@media (max-width: 425px)  {
+@media (min-width: 425px)  {
 
     h1 {
         font-size: 3rem;
@@ -72,34 +70,28 @@ article img {
         font-size: .9rem;
     }
     ul li {
-        font-size: .8rem;
+        font-size: 1.2rem;
     }
 
     .images {
-        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
     }
-}
-
-@media (max-width: 769px) {
-    h1{
-        font-size:3.5rem ;
+    
+    article {
+        padding-top: 0;
     }
-
-    h3 {
-      font-size: 1.1rem;  
+    article img {
+        width: 80%
     }
 
-    ul li {
-        font-size: 1rem;
-    }
 
-    .images {
-        width: 100%;
-    }
 }
 
 
-@media (max-width: 1024px) {
+
+
+/*@media (min-width: 768px) {
     h1{
         font-size:3.5rem ;
     }
