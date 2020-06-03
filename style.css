@@ -81,6 +81,7 @@ article img {
     article {
         padding-top: 0;
     }
+
     article img {
         width: 80%
     }
@@ -91,32 +92,20 @@ article img {
 
 
 
-/*@media (min-width: 768px) {
-    h1{
-        font-size:3.5rem ;
+@media (min-width: 768px) {
+    .images {
+        display: grid;
+        grid-template-columns: auto auto auto;
     }
-
-    h3 {
-      font-size: 1.1rem;  
-    }
-
-    ul li {
-        font-size: 1rem;
-    }
+    
 }
 
 @media (min-width: 1024px)  {
-    h1{
-        font-size:3.8rem ;
+    .images {
+        display: grid;
+        grid-template-columns: auto auto auto;
     }
-
-    h3 {
-      font-size: 1.3rem;  
-    }
-
-    ul li {
-        font-size: 1.2rem;
-    }
+    
 }
 
 
