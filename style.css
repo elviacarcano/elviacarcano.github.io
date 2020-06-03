@@ -27,7 +27,7 @@ nav {
 ul {
     display: flex;
     margin: auto;
-    padding-left: 3rem;
+    padding-left: 4rem;
 }
 
 nav a {
@@ -38,7 +38,7 @@ nav a {
 li {
     list-style: none;
     padding: .4rem;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 article {
@@ -46,13 +46,13 @@ article {
 }
 
 article img {
-    width: 70%;
+    width: 100%;
 }
 
 .images {
     text-align: center;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2.5rem;
 }
 
 
