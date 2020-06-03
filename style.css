@@ -12,24 +12,22 @@ body {
 
 h1 {
     font-family: 'Libre Caslon Display', sans-serif;
-    font-size: 4rem;
+    font-size: 2rem;
     padding-top: 2rem;
-    padding-bottom: 1rem;
-    padding-left: 4rem;
+    padding-left: 2rem;
     font-weight: lighter;
     float: left;
-    margin: 2rem;
-    padding-right: 8rem;
+    margin: auto;
 }
 
 nav {
-    padding-top: 4rem;
-    padding-bottom: 3.5rem;
-
+    padding-top: 2.5rem;
 }
+
 ul {
-    padding-bottom: 1rem;
     display: flex;
+    margin: auto;
+    padding-left: 3rem;
 }
 
 nav a {
@@ -39,13 +37,12 @@ nav a {
 
 li {
     list-style: none;
-    padding:.7rem;
-    font-size: 1.7rem;
+    padding: .4rem;
+    font-size: .9rem;
 }
 
 article {
     padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 
 article img {
@@ -53,9 +50,9 @@ article img {
 }
 
 .images {
-    margin: auto;
     text-align: center;
-    padding-top: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 
