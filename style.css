@@ -14,20 +14,24 @@ h1 {
     font-family: 'Libre Caslon Display', sans-serif;
     font-size: 2rem;
     padding-top: 2rem;
-    padding-left: 2rem;
     font-weight: lighter;
-    float: left;
     margin: auto;
+}
+
+header {
+    display: grid;
+    grid-template: auto auto;
+
 }
 
 nav {
     padding-top: 2.5rem;
+    margin: auto;
 }
 
 ul {
     display: flex;
-    margin: auto;
-    padding-left: 4rem;
+    padding: 0;
 }
 
 nav a {
