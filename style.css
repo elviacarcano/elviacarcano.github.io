@@ -20,7 +20,7 @@ h1 {
 
 header {
     display: grid;
-    grid-template: auto auto;
+    grid-template-columns: auto auto;
 
 }
 
