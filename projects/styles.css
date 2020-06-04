@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: Lato, sans-serif;
+    
+}
+
+
+
+h1 {
+    font-family: 'Libre Caslon Display', sans-serif;
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-weight: lighter;
+    margin: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+nav {
+    padding-top: 2.5rem;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    padding: .4rem;
+    font-size: .8rem;
+}
+
+article {
+    padding-top: 2rem;
+    
+}
+
+article img {
+    width: 100%;
+}
+
+
+@media (min-width: 427px)  {
+
+    h1 {
+        font-size: 2.1rem;
+    }
+
+    ul li {
+        font-size: .9rem;
+    }
+
+    
+    article {
+        padding-top: 0;
+    }
+
+    article img {
+        width: 90%
+    }
+
+
+}
+
+
+
+
+@media (min-width: 770px) {
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+
+    article {
+        padding-top: 0;
+    }
+
+    article img {
+        width: 95%;
+    }
+    
+}
+
+@media (min-width: 1026px)  {
+
+    h1 {
+        font-size: 2.7rem;
+    }
+
+    ul li {
+        font-size: 1.1rem;
+    }
+    
+    article {
+        padding-top: 0;
+    }
+
+    article img {
+        width: 95%;
+    }
+    
+}
