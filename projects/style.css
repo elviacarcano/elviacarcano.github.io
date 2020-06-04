@@ -78,21 +78,6 @@ p {
     letter-spacing: .02rem;
 }
 
-.buttons {
-  display:grid;
-  grid-template-columns: auto auto;
-  grid-gap: 10px 10px;
-}
-.buttons a:link {
-  color: white;
-  background: #b77b65;
-  padding: 10px;
-}
-
-.buttons a:visited {
-  color: white;
-}
-
 
 @media (min-width: 427px)  {
 
@@ -150,7 +135,12 @@ p {
     }
 
     article img {
-        width: 85%;
+        width: 80%;
+    }
+
+    .description {
+        padding: 6rem;
+        padding-top: 2rem;
     }
     
 }
@@ -178,7 +168,12 @@ p {
     }
 
     article img {
-        width: 95%;
+        width: 75%;
+    }
+
+    .description {
+        padding: 9rem;
+        padding-top: 2rem;
     }
     
 }
