@@ -78,6 +78,21 @@ p {
     letter-spacing: .02rem;
 }
 
+.buttons {
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px 10px;
+}
+.buttons a:link {
+  color: white;
+  background: #b77b65;
+  padding: 10px;
+}
+
+.buttons a:visited {
+  color: white;
+}
+
 
 @media (min-width: 427px)  {
 
@@ -89,9 +104,12 @@ p {
         font-size: .9rem;
     }
 
-    
-    article {
-        padding-top: 0;
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    h3 {
+        font-size: .9rem;
     }
 
     article img {
@@ -114,12 +132,20 @@ p {
         font-size: 1rem;
     }
 
+    h2{
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
     article {
         padding-top: 0;
     }
 
     article img {
-        width: 95%;
+        width: 85%;
     }
     
 }
@@ -132,6 +158,14 @@ p {
 
     ul li {
         font-size: 1.1rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
     }
 
     article {
