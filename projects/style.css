@@ -63,7 +63,7 @@ article img {
 
 .description {
     text-align: left;
-    padding: 1 rem;
+    padding: 1rem;
     font-size: .8rem;
 }
 
@@ -71,6 +71,7 @@ h3 {
     font-weight: bold;
     color: gray;
     letter-spacing: .03rem;
+    font-style: italic;
 }
 
 p {
