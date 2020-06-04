@@ -64,19 +64,18 @@ article img {
 @media (min-width: 426px)  {
 
     h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
-    h3 {
-        font-size: .9rem;
-    }
     ul li {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .images {
         display: grid;
         grid-template-columns: auto auto;
+        grid-row-gap: 2rem;
+        padding-bottom: 3rem;
     }
     
     article {
@@ -84,7 +83,7 @@ article img {
     }
 
     article img {
-        width: 80%
+        width: 90%
     }
 
 
