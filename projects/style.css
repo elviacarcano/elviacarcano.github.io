@@ -63,8 +63,9 @@ article img {
 
 .description {
     text-align: left;
-    padding: 1rem;
     font-size: .8rem;
+    width: 90%;
+    margin: auto;
 }
 
 h3 {
@@ -102,8 +103,8 @@ p {
     }
 
     .description {
-        padding: 4rem;
-        padding-top: 1.5rem;
+        width: 75%;
+        padding-top: 1rem;
     }
 
 
@@ -130,17 +131,14 @@ p {
         font-size: 1.2rem;
     }
 
-    article {
-        padding-top: 0;
-    }
 
     article img {
         width: 80%;
     }
 
     .description {
-        padding: 6rem;
-        padding-top: 2rem;
+        width: 70%;
+        padding-top: 1.5rem;
     }
     
 }
@@ -163,16 +161,13 @@ p {
         font-size: 1.5rem;
     }
 
-    article {
-        padding-top: 0;
-    }
 
     article img {
         width: 75%;
     }
 
     .description {
-        padding: 9rem;
+        width: 65%;
         padding-top: 2rem;
     }
     
