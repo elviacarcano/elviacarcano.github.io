@@ -53,6 +53,9 @@ article {
 
 h2 {
     font-family: 'Libre Caslon Display', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
 }
 
 article img {
@@ -60,8 +63,14 @@ article img {
 }
 
 h3 {
+    font-size: .8rem;
+    font-weight: bold;
+    color: gray;
+    text-align: left;
+    padding-top: 1rem;
 
 }
+
 
 p {
     text-align: left;
