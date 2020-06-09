@@ -39,6 +39,10 @@ nav a {
     color: black;
 }
 
+a:hover {
+    color: hotpink;
+}
+
 li {
     list-style: none;
     padding: .4rem;
