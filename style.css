@@ -36,11 +36,11 @@ ul {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: grey;
 }
 
 a:hover {
-    color: hotpink;
+    color: #B87A60;
 }
 
 li {
