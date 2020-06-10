@@ -89,6 +89,7 @@ article img:hover {
         grid-row-gap: 1.8rem;
         padding-bottom: 3rem;
         width: 75%;
+        margin: auto;
     }
     
     article {
