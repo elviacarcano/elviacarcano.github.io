@@ -51,6 +51,7 @@ article {
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 3rem;
+    width: 85%;
     
 }
 
@@ -58,6 +59,7 @@ h2 {
     font-family: 'Libre Caslon Display', sans-serif;
     font-weight: lighter;
     font-size: 1.5rem;
+    margin-top: 0;
 }
 
 article img {
@@ -96,6 +98,7 @@ p {
 
     article {
         padding-top: 2.5rem;
+        width: 75%;
     }
 
     h2 {
@@ -168,6 +171,7 @@ p {
 
     article {
         padding-top: 4.2rem;
+        width: 65%;
     }
 
     .description {
