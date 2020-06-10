@@ -82,7 +82,7 @@ article img:hover {
     } 
 
     article {
-        padding-left: 0;;
+        padding-top: 0;
     }
 
     .images {
@@ -126,6 +126,7 @@ article img:hover {
     article img {
         width: 95%;
     }
+    
     
 }
 
