@@ -81,6 +81,9 @@ a {
 }
 
 @media (min-width: 427px)  {
+    header {
+        padding-bottom: 2.5rem;
+    }
 
     h1 {
         font-size: 2.1rem;
@@ -106,6 +109,9 @@ a {
 
 
 @media (min-width: 770px) {
+    header {
+        padding-bottom: 4rem;
+    }
 
     h1 {
         font-size: 2.4rem;
@@ -131,7 +137,7 @@ a {
 @media (min-width: 1026px)  {
 
     header {
-        padding-bottom: 3rem;
+        padding-bottom: 4.2rem;
     }
     h1 {
         font-size: 2.7rem;

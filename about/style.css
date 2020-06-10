@@ -97,6 +97,7 @@ p {
         display: grid;
         grid-template-columns: auto auto;
         width: 75%;
+        padding-top: 2.5rem;
     }
 
     article img {
@@ -124,6 +125,10 @@ p {
         font-size: 1.2rem;
     }
 
+    article {
+        padding-top: 4rem;
+    }
+
     .description {
         font-size: 1rem;
     }
@@ -145,7 +150,7 @@ p {
 
     article {
         width: 65%;
-        padding-top: 3rem;
+        padding-top:rem;
     }
 
     .description {
