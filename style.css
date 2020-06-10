@@ -88,11 +88,11 @@ article img:hover {
         grid-template-columns: auto auto;
         grid-row-gap: 1.8rem;
         padding-bottom: 3rem;
+        width: 75%;
     }
     
     article {
         padding-top: 0;
-        width: 75%;
     }
 
     article img {
@@ -145,11 +145,11 @@ article img:hover {
     .images {
         padding-top: 4.2rem;
         grid-row-gap: 1.2rem;
+        width: 65%;
     }
 
     article {
         padding-top: 0;
-        width: 65%;
     }
 
     article img {
