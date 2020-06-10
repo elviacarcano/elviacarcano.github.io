@@ -51,10 +51,37 @@ li {
 
 article {
     padding-top: 2rem;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
 }
 
 article img {
     width: 100%;
+    display: block;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    transition: .3s ease;
+    opacity: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.text {
+    color:#B87A60;
+    font-family: Lato, sans serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem; 
 }
 
 .images {
