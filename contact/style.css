@@ -130,6 +130,9 @@ a {
 
 @media (min-width: 1026px)  {
 
+    header {
+        padding-bottom: 3rem;
+    }
     h1 {
         font-size: 2.7rem;
     }
@@ -144,7 +147,6 @@ a {
 
     article {
         width: 65%;
-        padding-top: 3rem;
     }
 
     .description {
