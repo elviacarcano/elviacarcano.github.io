@@ -25,6 +25,10 @@ nav {
     margin: auto;
 }
 
+a:hover {
+    color: #B87A60;
+}
+
 ul {
     display: flex;
     padding: 0;
