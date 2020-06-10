@@ -73,6 +73,7 @@ article img {
     font-size: .8rem;
     width: 90%;
     margin: auto;
+    padding-bottom: 2.5rem;
 }
 
 h3 {
@@ -88,15 +89,16 @@ p {
 
 .buttons {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
+
 .buttons a {
 background: wheat;
-padding: 1rem;
+padding: .8rem;
 text-decoration: none;
-color: white;
+color:#B87A60 ;
 font-weight: bold;
-}
+border-radius: 2rem;
 
 }
 
