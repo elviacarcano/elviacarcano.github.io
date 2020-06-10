@@ -48,7 +48,6 @@ article {
     margin: auto;
     background-color: #B87A60;
     border-radius: 2rem;
-    padding: 1rem;
 }
 
 .description {
@@ -68,7 +67,7 @@ h3 {
 h2 {
     font-family: 'Libre Caslon Display', sans-serif;
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: wheat;
 }
 
