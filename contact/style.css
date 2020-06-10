@@ -48,6 +48,7 @@ article {
     margin: auto;
     background-color: #CEA28C;
     border-radius: 2rem;
+    padding: 1rem;
 }
 
 h2 {
@@ -60,6 +61,7 @@ h2 {
 .description {
     font-size: .8rem;
     color: white;
+    padding: 1rem;
 }
 
 h3 {
@@ -71,6 +73,10 @@ h3 {
 
 p {
     letter-spacing: .02rem;
+}
+
+a {
+    color: white;
 }
 
 /*
