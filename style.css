@@ -61,7 +61,10 @@ article img {
     width: 100%;
 }
 
-
+article img:hover {
+    opacity: .5;
+    transition: 1s;
+  }
 
 .images {
     text-align: center;
@@ -69,10 +72,6 @@ article img {
     padding-bottom: 2.5rem;
 }
 
-.images img:hover {
-    opacity: .5;
-    transition: 1s;
-  }
 
 
 
