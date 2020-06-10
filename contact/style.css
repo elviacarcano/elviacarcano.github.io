@@ -46,22 +46,16 @@ article {
     text-align: left;
     width: 85%;
     margin: auto;
-    background-color: #CEA28C;
+    background-color: #B87A60;
     border-radius: 2rem;
     padding: 1rem;
-}
-
-h2 {
-    font-family: 'Libre Caslon Display', sans-serif;
-    font-weight: lighter;
-    font-size: 1rem;
-    color: wheat;
 }
 
 .description {
     font-size: .8rem;
     color: white;
     padding: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 h3 {
@@ -69,6 +63,13 @@ h3 {
     color: wheat;
     letter-spacing: .03rem;
     font-style: italic;
+}
+
+h2 {
+    font-family: 'Libre Caslon Display', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    color: wheat;
 }
 
 p {
