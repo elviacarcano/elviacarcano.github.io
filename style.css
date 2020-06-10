@@ -49,11 +49,6 @@ li {
     font-size: .8rem;
 }
 
-article {
-    padding-top: 2rem;
-}
-
-
 article img {
     width: 100%;
     border-radius: 2rem;
@@ -66,7 +61,7 @@ article img:hover {
 
 .images {
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 2.5rem;
 }
 
@@ -91,10 +86,6 @@ article img:hover {
         padding-top: 2.5rem;
         width: 80%;
         margin: auto;
-    }
-    
-    article {
-        padding-top: 0;
     }
 
     article img {
@@ -125,10 +116,6 @@ article img:hover {
         width: 75%;
     }
 
-    article {
-        padding-top: 0;
-    }
-
     article img {
         width: 95%;
     }
@@ -149,10 +136,6 @@ article img:hover {
         padding-top: 4.2rem;
         grid-row-gap: 1.2rem;
         width: 70%;
-    }
-
-    article {
-        padding-top: 0;
     }
 
     article img {
